@@ -1,0 +1,7 @@
+@import "partial";
+@import "subdir/another-subdir/another-partial";
+@import "subdir/partial2";
+
+.class {
+    background-color: $partial-variable;
+}
